@@ -12,6 +12,8 @@ import connectionRoutes from "./routes/connection.route.js";
 
 import { connectDB } from "./lib/db.js";
 
+
+
 dotenv.config();
 
 const app = express();
